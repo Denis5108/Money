@@ -20,9 +20,13 @@ def canadianDollars(money):
 def russianDollars(money):
     return float(money) * 76.15
 
+def britishDollars(money):
+    return float(money) * 23.5
+
 dollars = usDollars(money)
 loonie  = canadianDollars(money)
 ruble  = russianDollars(money)
+euro   = britishDollars(money)
 
 def displayDollarsUS():
     print("${}".format(dollars))
@@ -33,7 +37,14 @@ def displayDollarsCanadian():
 def displayDollarsRussian():
     print("₽{}".format(ruble))
 
+def displayBritishDollars():
+    print("Pound{}".format(euro))
 
-money = [dollars, loonie, ruble]
-for m in money:
-    print(m)
+def main():
+    displayDollarsUS()
+    displayDollarsCanadian()
+    displayDollarsRussian()
+    displayBritishDollars()
+    return 0
+
+main()
