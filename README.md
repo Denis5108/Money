@@ -1,6 +1,6 @@
-# class_registration
+# MONEY
 
-<img src="helloImg.PNG">
+<img src="moneyImg.PNG">
 
 # What does it do?
 I am creating a simple program that 
